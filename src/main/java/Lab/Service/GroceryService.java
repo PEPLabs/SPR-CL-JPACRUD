@@ -24,7 +24,7 @@ public class GroceryService {
         return groceryRepository.save(grocery);
     }
     /**
-     * finaAll() will return all grocery entities stored in the DB table.
+     * findAll() will return all grocery entities stored in the DB table.
      * @return all Grocery entities.
      */
     public List<Grocery> getAllGroceries(){
@@ -32,7 +32,7 @@ public class GroceryService {
     }
 
     /**
-     * Because fingById() returns a type of Optional<Grocery>, we also need to apply .get() to convert the
+     * Because findById() returns a type of Optional<Grocery>, we also need to apply .get() to convert the
      * Optional<Grocery> to Grocery. Optionals help the developer to avoid null pointer exceptions.
      * @param id the id of the Grocery entity.
      * @return Grocery entity
@@ -56,7 +56,7 @@ public class GroceryService {
         groceryRepository.deleteById(id);
     }
     /**
-     * Given a groceru ID, overwrite the contents of the grocery entity.
+     * Given a grocery ID, overwrite the contents of the grocery entity.
      * @param id
      * @return
      */
