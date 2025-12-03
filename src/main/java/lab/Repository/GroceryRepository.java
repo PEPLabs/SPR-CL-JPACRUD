@@ -1,6 +1,6 @@
-package Lab.Repository;
+package lab.Repository;
 
-import Lab.Model.Grocery;
+import lab.Model.Grocery;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface GroceryRepository extends JpaRepository<Grocery, Long> {

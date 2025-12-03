@@ -1,4 +1,4 @@
-package Lab.Model;
+package lab.Model;
 
 import lombok.*;
 

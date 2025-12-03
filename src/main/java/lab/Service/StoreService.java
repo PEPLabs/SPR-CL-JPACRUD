@@ -1,12 +1,10 @@
-package Lab.Service;
+package lab.Service;
 
-import Lab.Model.Store;
-import Lab.Repository.StoreRepository;
+import lab.Model.Store;
+import lab.Repository.StoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 public class StoreService {
     StoreRepository storeRepository;

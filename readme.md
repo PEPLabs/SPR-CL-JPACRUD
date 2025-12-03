@@ -9,15 +9,15 @@ This coding lab covers unit "Spring Data JPA", module "Spring Data Repositories"
 - Look for @TODO statements and fill out the methods accordingly.
 
 ## Shouldn't Modify (But Look at for Context)
-- Lab.Application
+- lab.Application
 - Models
-  - Lab.Model.Grocery
-  - Lab.Model.Store
+  - lab.Model.Grocery
+  - lab.Model.Store
 - Repository
-  - Lab.Repository.GroceryRepository
-  - Lab.Repository.StoreRepository
-- Lab.Service.GroceryService
+  - lab.Repository.GroceryRepository
+  - lab.Repository.StoreRepository
+- lab.Service.GroceryService
 - Test files
 
 ## Should Modify
-- Lab.Service.StoreService
+- lab.Service.StoreService

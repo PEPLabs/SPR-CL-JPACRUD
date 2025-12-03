@@ -1,6 +1,8 @@
-import Lab.Model.Store;
-import Lab.Service.StoreService;
-import Lab.Repository.StoreRepository;
+package lab;
+
+import lab.Model.Store;
+import lab.Service.StoreService;
+import lab.Repository.StoreRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -20,7 +22,7 @@ import static org.mockito.Mockito.*;
  */
 
 @ExtendWith(MockitoExtension.class)
-public class StoreServiceTestSuite {
+public class StoreServiceTest {
     @Mock
     StoreRepository storeRepository;
 

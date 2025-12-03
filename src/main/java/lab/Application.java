@@ -1,9 +1,9 @@
-package Lab;
+package lab;
 
-import Lab.Model.Grocery;
-import Lab.Model.Store;
-import Lab.Service.GroceryService;
-import Lab.Service.StoreService;
+import lab.Model.Grocery;
+import lab.Model.Store;
+import lab.Service.GroceryService;
+import lab.Service.StoreService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

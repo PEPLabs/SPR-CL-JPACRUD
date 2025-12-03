@@ -1,7 +1,7 @@
-package Lab.Service;
+package lab.Service;
 
-import Lab.Model.Grocery;
-import Lab.Repository.GroceryRepository;
+import lab.Model.Grocery;
+import lab.Repository.GroceryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
